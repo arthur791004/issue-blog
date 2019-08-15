@@ -1,5 +1,5 @@
 const config = {
-  extends: ['airbnb'],
+  extends: ['airbnb', 'prettier'],
   parser: 'babel-eslint',
   env: {
     es6: true,
