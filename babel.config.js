@@ -9,5 +9,6 @@ module.exports = {
         },
       },
     ],
+    ['styled-components', { ssr: true }],
   ],
 };
