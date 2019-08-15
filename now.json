@@ -1,0 +1,10 @@
+{
+  "name": "issueblog",
+  "version": 2,
+  "alias": "issueblog",
+  "build": {
+    "env": {
+      "GITHUB_TOKEN": "@github_token"
+    }
+  }
+}
