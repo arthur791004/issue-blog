@@ -5,6 +5,7 @@ const config = {
     es6: true,
   },
   globals: {
+    window: true,
     document: true,
     fetch: true,
   },
@@ -24,6 +25,7 @@ const config = {
     'import/prefer-default-export': 0,
     'no-else-return': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-one-expression-per-line': 0,
     'react/jsx-props-no-spreading': 0,
     'react/jsx-wrap-multilines': [
       'error',
